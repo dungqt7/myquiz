@@ -1,0 +1,14 @@
+<div class="conatiner">
+    <div class="row">
+        <div class="col-md-8">
+            <h5 class="font-weight-normal">Profile</h5>
+        </div>
+        <div class="col-md-4 d-flex mb-2">
+            <nav>
+                <a id="menuHome" (click)="setActive('menuHome')" [routerLink]="[ '/home']">Home </a>
+            </nav>
+            <a id="menuAdd" (click)="setActive('menuAdd')" class="btn btn-sm btn-primary menuAdd" [routerLink]="[ '/add']">Add</a>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,13 @@
+.container-narrow {
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+li {
+    list-style: none;
+}
+
+.menuAdd {
+    margin-left: 22px;
+    width: 90px;
+}
